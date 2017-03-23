@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+
+body{
+  background: #18063A;
+}
+#wrapper {
+  width:500px;
+  height: 300px;
+  background: #462E74;
+  margin:auto;
+  top:100px;
+  position: relative;
+}
+#button-wrapper{
+  display: block;
+  width: 100%;
+  margin:auto;
+  background: white;
+  position: absolute;
+  top:150px;
+  text-align: center;
+}
+#timer-wrapper{
+
+}
+#timer {
+
+display: inline-block;
+color:white;
+font-weight: bold;
+text-align: center;
+width: 25%;
+position: relative;
+top:55px;
+left:35%;
+font-size:55px;
+font-family: 'Gruppo', cursive;
+float: left;
+}
+#miliseconds {
+
+display: inline-block;
+color:white;
+font-weight: bold;
+text-align: center;
+width: 10%;
+position: relative;
+top:55px;
+left:36.5%;
+font-size:55px;
+font-family: 'Gruppo', cursive;
+float: left;
+}
+.clearfloat{
+  content = "";
+  display: block;
+  float:both;
+}
+
+#times{
+  border:2px solid white;
+  width:70%;
+  float: left;
+  margin-left: 55px;
+  margin-top:170px;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+  color: #18063A;
+  font-size:17px;
+  font-family: 'Gruppo', cursive;
+  font-weight: bold;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  color:white;
+  font-family: 'Gruppo', cursive;
+  font-size: 35px;
+  padding-top:30px;
+}
